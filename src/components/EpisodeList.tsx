@@ -7,8 +7,8 @@ interface EpisodeListProps {
 
 export default function EpisodeList({ episodes }: EpisodeListProps) {
   return (
-    <div className="h-full overflow-y-auto p-10">
-      <h2 className="text-2xl mb-20 p-9 font-bold border-b border-slate-100">Episodes</h2>
+    <div className="h-full overflow-y-auto p-5 md:p-10">
+      <h2 className="text-2xl mb-10 md:mb-20 p-5 md:p-9 font-bold border-b border-slate-100">Episodes</h2>
       {episodes.map((episode) => (
         <EpisodeItem key={episode.id} episode={episode} />
       ))}

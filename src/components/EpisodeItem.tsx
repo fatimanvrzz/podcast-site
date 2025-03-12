@@ -7,7 +7,7 @@ interface EpisodeItemProps {
 
 export default function EpisodeItem({ episode }: EpisodeItemProps) {
   return (
-    <div className="mb-8 bg-background px-9 border-b border-slate-100">
+    <div className="mb-8 bg-background px-5 md:px-9 border-b border-slate-100">
       <p className="text-sm/7 font-sans text-slate-500">{episode.date}</p>
       <h3 className="text-xl my-2 font-bold">{episode.title}</h3>
       <p className='text-base/7 text-slate-700 mt-1'>{episode.description}</p>
