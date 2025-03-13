@@ -8,11 +8,12 @@ import Feed from '@/components/Feed';
 import AboutIcon from '@/components/AboutIcon';
 import ListenIcon from '@/components/ListenIcon';
 
+
 export default function Home() {
   return (
     <Layout>
       <div className="flex flex-col md:flex-row h-screen">
-        <div className="hidden md:flex w-[5rem] bg-slate-100 border-r border-slate-200 flex-col justify-center pt-20 p-5">
+        <div className="hidden md:flex w-[5rem] bg-slate-100 border-r border-slate-200 flex-col justify-start pt-20 p-5">
           <p style={{ writingMode: 'vertical-lr' }} className='gap-3 flex text-xl'>
             <span className='text-slate-500'>Hosted by</span>
             <span> Fatima Novruzova</span>
@@ -21,11 +22,7 @@ export default function Home() {
 
         <div className="w-full md:w-2/4 p-5 md:p-20 border-r border-slate-100 md:overflow-y-auto h-full bg-slate-100 text-center md:text-left">
           <div className="md:sticky md:top-0 md:bg-slate-100 md:pb-10">
-            <img
-              src="https://transmit.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fposter.11292dc0.png&w=640&q=75"
-              className='rounded-2xl border-slate-700 shadow-xl w-full max-w-xs mx-auto md:mx-0'
-              alt=""
-            />
+            <img src="https://transmit.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fposter.11292dc0.png&w=640&q=75" className='rounded-2xl border-slate-700 shadow-xl w-full max-w-xs mx-auto md:mx-0' alt="their side"/>
 
             <h5 className="text-2xl font-bold mb-3 mt-10">Their Side</h5>
             <p className='mb-10 text-base mx-auto md:mx-0'>
